@@ -1,9 +1,10 @@
 export interface Filmes {
   id: number;
   nome: string;
-  idDiretor: number;
+  diretores: Diretores[];
   ano: number;
-  idAtor: number
+  bannerUrl:string
+  atores: Atores[]
 }
 export interface Diretores {
   id:number
